@@ -34,7 +34,25 @@ public class ParqueView {
     public int leerOpcion() {
         int opcion = scanner.nextInt();
         scanner.nextLine();
+
         return opcion;
+    }
+
+    // AGREGAR ESTE MÉTODO
+    public String leerTexto(String mensaje) {
+        System.out.print(mensaje);
+
+        return scanner.nextLine();
+    }
+
+    // AGREGAR ESTE MÉTODO
+    public int leerEntero(String mensaje) {
+        System.out.print(mensaje);
+
+        int numero = scanner.nextInt();
+        scanner.nextLine();
+
+        return numero;
     }
 
     public void limpiarEntrada() {
