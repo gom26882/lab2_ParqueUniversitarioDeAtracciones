@@ -38,14 +38,12 @@ public class ParqueView {
         return opcion;
     }
 
-    // AGREGAR ESTE MÉTODO
     public String leerTexto(String mensaje) {
         System.out.print(mensaje);
 
         return scanner.nextLine();
     }
 
-    // AGREGAR ESTE MÉTODO
     public int leerEntero(String mensaje) {
         System.out.print(mensaje);
 
